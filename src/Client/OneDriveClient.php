@@ -116,7 +116,7 @@ class OneDriveClient
      */
     public function createFile($path, $content)
     {
-        return $this->simpleItemUpload($path, $content, 'fail');
+        return $this->simpleItemUpload($path, $content, 'replace');
     }
 
     /**
